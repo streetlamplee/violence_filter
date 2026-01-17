@@ -21,6 +21,6 @@ class violence_filter:
             raise Exception("Model is not ready yet.")
 
         # 추론 수행
-        results = self.classifier([image])
+        results = self.classifier(image)
         
         return results
